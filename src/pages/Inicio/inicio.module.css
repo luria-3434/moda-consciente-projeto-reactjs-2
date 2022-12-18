@@ -1,0 +1,139 @@
+.header {
+    text-align: center;
+    color: rgb(99, 100, 107);
+    background:  #b6b2af;  
+  }
+  
+  .header h1 {
+    padding-top: 4rem;
+    font-size: 3rem;
+  }
+  
+  .header img {
+    /*margin: 2rem;*/
+    width: 100%;
+    height: 100%;
+  }
+  
+  .subtitulo {
+    padding: 1rem;
+    font-size: 1.5rem;
+    height: 500px;
+    color: #61635a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDE9E0;
+  }
+  
+  .subtitulo p {
+    width: 60%;
+  }
+  
+  .beneficios {
+    width: 100%;
+  }
+  
+  .content {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .cardsContainer {
+    width: 60%;
+  }
+  
+  .tituloCards {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #555550;
+  }
+  
+  .card {
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .imagemCard {
+    width: 15rem;
+  }
+  
+  .textos {
+    margin: 2rem;
+  }
+  
+  .subtituloCard {
+    font-size: 2rem;
+    color: #79786ee1;
+    font-weight: ExtraLight 200;
+  }
+  
+  .texto {
+    width: 12rem;
+  }
+
+  .itemLista {
+    font-size: 1rem;
+    color: #79786ee1;
+    font-weight: ExtraLight 150;
+    text-decoration: none;
+    padding-top: 10rem;
+    margin: 2rem;
+  }
+  
+  @media(max-width: 765px) {
+    .content {
+      flex-direction: column;
+    }
+    
+    .subtitulo {
+      height: 200px;
+      padding: 1rem;
+      font-size: 0.5rem;
+    }
+
+    .subtitulo p {
+      width: 60%;
+    }
+    
+    
+    .cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      flex-direction: column;
+    }
+  
+    .subtituloCard {
+      text-align: center;
+    }
+  
+    .header img {
+      margin: 2rem;
+      width: 60%;
+      height: 60%;
+    }
+
+    .tituloCards {
+      font-size: 2rem;
+    }
+    .header h1 {
+      padding-top: 3rem;
+      font-size: 2rem;
+    }
+  }

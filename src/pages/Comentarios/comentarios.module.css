@@ -1,0 +1,165 @@
+.header {
+    text-align: center;
+    color: #fff;
+    background: #b6b2af;
+    width: 100% ;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+  
+  .header img {
+    margin: 2rem;
+    width: 20vw;
+    height: 30vh;
+  }
+  
+  .list {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 70px 60px;
+    margin: 0 auto;
+  }
+  
+  .inputContainer {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .input {
+    background: #fff;
+    border: 0.5 solid #86837d;
+    padding: 12px 24px;
+    border-radius: 8px;
+    height: 100px;
+    width: 70%; 
+  }
+  
+  .addContainer {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .addTask {
+    background:#777674;
+    width: 300px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    padding: 14px;
+  }
+  
+  .removeTask {
+    background:rgb(90, 86, 86);
+    margin: 2rem;
+    border-radius: 8px;
+    border: 0;
+    padding: 14px;
+    color: #fff;
+  }
+  
+  .listItems {
+    list-style: none;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .listItems > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 0.7px solid #7e7d7d;
+    width: 60%;
+  }
+    
+  
+  .listItems li div p {
+    font-size: 1.3em;
+    color: #111;
+  }
+
+  .beneficios {
+    width: 100%;
+  }
+  
+  .content {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cards {
+    display:inline-block;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .cardsContainer {
+    width: 60%;
+  }
+  
+  .tituloCards {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #555550;
+  }
+
+  .reserva{
+    text-align: center;
+    font-size: 1rem;
+    font-weight:lighter;
+    color: #686865;
+  }
+  
+  .card {
+    margin: 1rem;
+    display:inline-block;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .imagemCard {
+    width: 15rem;
+    padding: 1rem;
+  }
+  
+  .textos {
+    margin: 2rem;
+  }
+  
+  .subtituloCard {
+    font-size: 2rem;
+    color: #79786ee1;
+    font-weight: ExtraLight 200;
+  }
+  
+  .texto {
+    width: 12rem;
+  }
+
+  .itemLista {
+    font-size: 1rem;
+    color: #79786ee1;
+    font-weight: ExtraLight 150;
+    text-decoration: none;
+    padding-top: 1rem;
+    margin: 1rem;
+    position: relative;
+    display: inline-block;
+    align-items:center;
+    justify-content:center;
+    width: 15rem;
+    text-align: center;
+  }
